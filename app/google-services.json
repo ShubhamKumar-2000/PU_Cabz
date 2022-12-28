@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1067832946885",
+    "project_id": "pu-cabz",
+    "storage_bucket": "pu-cabz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067832946885:android:a5bd570f6e1d6375f180ac",
+        "android_client_info": {
+          "package_name": "com.example.pucabz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067832946885-nia9buk09rb3kd1fs9gtqacg5099tsl4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk5J_cDe2nvyc4_Eb5SiHrV_DtGWO7JGY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067832946885-nia9buk09rb3kd1fs9gtqacg5099tsl4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
