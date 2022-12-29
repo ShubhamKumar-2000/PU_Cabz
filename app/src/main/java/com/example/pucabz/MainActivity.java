@@ -15,8 +15,8 @@ public class MainActivity<button> extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mDriver = (Button) findViewById(R.id.driver);
-        mCUSTOMER = (Button) findViewById(R.id.driver);
+        mDriver = (Button) findViewById(driver);
+        mCUSTOMER = (Button) findViewById(driver);
 
         mDriver.setOnClickListener(new View.OnClickListener() {
             @Override
