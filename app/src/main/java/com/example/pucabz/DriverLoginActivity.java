@@ -15,8 +15,11 @@ public class DriverLoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_driver_login);
 
-        mEmail = (EditText) findViewById(R.id.login);
-        mRegistration = (Button) findViewById(R.id.Registration);
+        mEmail = findViewById(R.id.email);
+        mPassword = findViewById(R.id.password);
+
+        mLogin = findViewById(R.id.login);
+        mRegistration = findViewById(R.id.registration);
 
     }
 }

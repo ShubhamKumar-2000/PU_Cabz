@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">PUCabz</string>
+    <string name="i_m_a_driver">I\'M A Driver</string>
+    <string name="i_m_customer">I\'M CUSTOMER</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
 </resources>

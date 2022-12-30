@@ -15,14 +15,15 @@ public class MainActivity<button> extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mDriver = (Button) findViewById(driver);
-        mCUSTOMER = (Button) findViewById(driver);
+
+        mDriver = findViewById(R.id.driver);
+        mCUSTOMER = findViewById(R.id.customer);
 
         mDriver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent =new Intent(MainActivity.this, DriverLoginActivity.class);
-                StartActivity(intent);
+                startActivity(intent);
                 finish();
                 return;
             }
